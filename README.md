@@ -246,7 +246,7 @@ behavior and preferences, enabling businesses to tailor marketing campaigns and 
 
 Identifying the bottom 5 pizzas by total orders reveals less popular or niche pizza options that may require attention or adjustments. Understanding these trends allows businesses to make informed decisions regarding menu adjustments, promotional strategies, or inventory management to optimize sales and customer satisfaction.
 
-__13) Generated various Charts and Visuals on Power BI to identify trends/patterns and gain more insights into the data.__
+## 📸 Dashboard Screenshot 
 
 ![image](https://github.com/sharanya-27/Pizza_Sales_Analysis_SQL/assets/142989454/03741982-c1aa-469d-9408-b61c75ea3ae3)
 ![image](https://github.com/sharanya-27/Pizza_Sales_Analysis_SQL/assets/142989454/17549e8d-69f6-42c8-89ed-aa589a706239)
