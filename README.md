@@ -89,7 +89,7 @@ This dataset was used for:
 ### ❓ Questions Answered from the Dataset
 __1) What are the Key Performance Indicators obtained from the Dataset?__
 
-+ __Total Revenue:__
++ 💰 **Total Revenue Generated** 
   
       SELECT SUM(total_price) AS Total_Revenue FROM pizza_sales;
    
@@ -98,7 +98,7 @@ __1) What are the Key Performance Indicators obtained from the Dataset?__
 This metric provides a clear measure of the overall financial performance of the pizza sales. It indicates the total amount of money generated from pizza 
 orders over a specific period, reflecting the revenue potential of the business.
       
-+ __Average Order Value:__
++ 📊 **Average Order Value (AOV)**
     
         SELECT (SUM(total_price) / COUNT(DISTINCT order_id)) AS Avg_order_Value FROM pizza_sales
     
@@ -107,7 +107,7 @@ orders over a specific period, reflecting the revenue potential of the business.
 Average order value helps in understanding customer spending habits and the effectiveness of marketing strategies. A higher average order value indicates that 
 customers are spending more per transaction, which can contribute to increased revenue and profitability.
 
-+ __Total Pizzas Sold:__
++ 🍕 **Total Pizzas Sold**
     
         SELECT SUM(quantity) AS Total_pizza_sold FROM pizza_sales
      
@@ -147,7 +147,7 @@ __2) Daily Trend for Total Orders__
 By analyzing the daily trend of total orders over a specific time period, we can identify patterns and fluctuations in order volumes on a daily basis. This 
 helps in understanding the demand patterns throughout the week or month, enabling better inventory management and resource allocation.
 
- __3) Monthly Trend for Orders__
+ __3)📈 **Monthly/Weekly Sales Trends**
 
         select DATENAME(MONTH, order_date) as Month_Name, COUNT(DISTINCT order_id) as Total_Orders
         from pizza_sales
