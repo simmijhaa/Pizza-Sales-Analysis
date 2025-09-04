@@ -15,6 +15,21 @@
 
 ---
 
+## 🍕 Project Overview
+
+This project analyzes **50,000+ pizza sales records** to uncover insights into **customer behavior, pizza popularity, and overall sales performance**.  
+Using **SQL** for data cleaning, aggregation, and KPI extraction, and **Power BI** for interactive dashboards, the project transforms raw sales data into **actionable business insights**.  
+
+Key highlights of this project:  
+- Track **daily and monthly sales trends** to understand peak and off-peak periods.  
+- Identify **top and bottom performing pizzas** by revenue, quantity, and orders.  
+- Analyze **pizza category and size preferences** to optimize the menu.  
+- Calculate **important KPIs** like total revenue, average order value, and average pizzas per order.  
+- Enable **data-driven decisions** for improving **menu offerings, inventory management, and operational efficiency**.  
+
+The ultimate goal is to help the pizza business **increase revenue, improve customer satisfaction, and optimize operations** through clear, actionable insights.
+
+
 ## 📂 Resources  
 
 - 📊 [Dataset Used](https://1drv.ms/x/s!AmKU00K1sOXkiXYGCmYAQfrCOGMJ?e=lz8diP)  
@@ -239,6 +254,13 @@ __13) Generated various Charts and Visuals on Power BI to identify trends/patter
 
 
 
+
+
+## 🛠 Tech Stack
+- SQL: Data cleaning, aggregation, KPI calculations
+- Power BI: Interactive dashboards & charts
+- Excel: Initial data exploration & cleaning
+- GitHub: Version control
 
 
 ## 📌 Conclusion  
