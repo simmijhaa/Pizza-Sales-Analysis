@@ -1,40 +1,50 @@
-<div align="center"> <h1>PIZZA SALES ANALYSIS</h1>
-</div>
+<div align="center">  
+  <h1>🍕 Pizza Sales Analysis</h1>  
+</div>  
 
-<div align="center">
-    
-![image](https://github.com/sharanya-27/pizza_sales_analysis/assets/142989454/9ac41c33-bd49-4c78-8124-4fc5b3c091ec)
+<div align="center">  
+  <img src="https://github.com/sharanya-27/pizza_sales_analysis/assets/142989454/9ac41c33-bd49-4c78-8124-4fc5b3c091ec" width="600">  
+</div>  
 
-</div>     
+---
 
+![PowerBI](https://img.shields.io/badge/PowerBI-Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Excel](https://img.shields.io/badge/Excel-Data%20Cleaning-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-Queries-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-Project-181717?style=for-the-badge&logo=github&logoColor=white)
 
-----
+---
 
-__Tools used : Excel,MS SQL Server,Power BI__
+## 📂 Resources  
 
-[Dataset used](https://1drv.ms/x/s!AmKU00K1sOXkiXYGCmYAQfrCOGMJ?e=lz8diP)
+- 📊 [Dataset Used](https://1drv.ms/x/s!AmKU00K1sOXkiXYGCmYAQfrCOGMJ?e=lz8diP)  
+- 📝 [SQL Analysis Code](sql_analysis)  
+- 📑 [Power BI Dashboard (PDF)](https://github.com/sharanya-27/Pizza_Sales_Analysis_SQL/files/14561723/Pizza_Sales_BI_Dashboard.pdf)  
+- 📈 [Interactive Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMWQzOWNmNDItNzZhYS00MDMxLWI5ZDYtM2FmOWUwMzk3ZWIxIiwidCI6IjZmMTFlMWQzLTEyMTAtNDk5YS1iMjY0LTU2NzA0NTY4OGUyNyJ9)  
 
-[SQL Analysis-code](sql_analysis)
+---
 
-[Power BI Dashboard- click to view](https://github.com/sharanya-27/Pizza_Sales_Analysis_SQL/files/14561723/Pizza_Sales_BI_Dashboard.pdf)
+## ❓ Business Problem  
 
-[Power BI Dashboard- click to interact](https://app.powerbi.com/view?r=eyJrIjoiMWQzOWNmNDItNzZhYS00MDMxLWI5ZDYtM2FmOWUwMzk3ZWIxIiwidCI6IjZmMTFlMWQzLTEyMTAtNDk5YS1iMjY0LTU2NzA0NTY4OGUyNyJ9)
+A pizza company needs a **robust and scalable data analytics solution** to analyze ~50K rows of sales data.  
+The goal is to uncover **trends, order patterns, menu performance, customer preferences, and key business metrics**.  
 
+Key requirements:  
+- Track **daily & monthly order volume**  
+- Analyze **sales by pizza type & size**  
+- Identify **top & bottom sellers**  
+- Provide **data-driven insights** for operations and profitability  
 
-__Business Problem__
--------
-A pizza company needs a robust and scalable data analytics solution to handle the vast amount of data(approximately 50k rows of data combined) to effectively analyze and extract meaningful insights like trends, order patterns, menu performance, customer preferences and other key business metrics. Visualizations must also be created to identify trends and insights related to daily and monthly order volume, sales by pizza type and size, and top/bottom sellers. The end goal is to equip the business with data-driven insights that inform strategic decisions to improve operations and profitability.
+---
 
-__Solution Plan__
--------
-  + In helping the pizza company gain valuable insights from their sales data CSV file, I will utilize SQL and data visualization with Power BI to extract relevant information and conduct insightful analyses.
-    Data cleaning/processing, data transformation and analysis shall be done.
-  + By leveraging SQL's functions, I can uncover key metrics like total revenue, average order size, and best/worst selling menu items.
-  + Once the data has been extracted and prepared, I will leverage Power BI to present the findings through interactive visualizations. This will allow stakeholders at the pizza company to gain actionable 
-    insights 
-    into sales trends, order patterns, and menu performance through visually compelling charts, graphs, and reports.
-  + I plan on creating a dynamic Power BI dashboard that enables users to explore details on daily order volume, sales by pizza type/size, or top/bottom selling items. The end goal is equipping the business with 
-    data-driven insights to inform strategic decisions that improve operations and profitability.
+## 💡 Solution Plan  
+
+- Used **SQL** for data cleaning, processing, and KPI extraction.  
+- Calculated **total revenue, average order size, best/worst sellers**.  
+- Built an **interactive Power BI dashboard** with daily trends, category analysis, and performance visuals.  
+- Delivered actionable insights to improve **menu optimization, forecasting, and profitability**.  
+
+---
 
 __Execution__
 ---------
@@ -231,9 +241,15 @@ __13) Generated various Charts and Visuals on Power BI to identify trends/patter
 
 
 
-__Conclusion__
----------
+## 📌 Conclusion  
 
-By delving into various facets of the pizza sales dataset, a comprehensive understanding of consumer behavior and market trends was attained. The analysis unveiled key insights, including the identification of peak and off-peak periods based on daily and monthly order trends. This knowledge equips businesses with the ability to optimize staffing and inventory management to meet varying demand levels effectively. Additionally, the examination of sales distribution across different pizza categories shed light on customer preferences, aiding in menu optimization and marketing strategies to enhance sales performance.
+- By analyzing various facets of the pizza sales dataset, valuable insights into **consumer behavior and market trends** were uncovered.  
+- Identification of **peak and off-peak periods** helps optimize staffing and inventory.  
+- Sales distribution across pizza categories provided **customer preference insights** for menu optimization and marketing.  
+- Metrics like **average pizzas per order** highlighted consumption patterns for pricing and portion strategies.  
+- Overall, the analysis enabled **data-driven decisions**, improved operations, and enhanced the customer experience.  
 
-Moreover, calculating the average number of pizzas sold per order provided valuable insights into consumer behavior and consumption patterns, enabling businesses to tailor pricing strategies and portion sizes to maximize profitability and customer satisfaction. Overall, this analysis empowers the pizza establishment to make data-driven decisions, streamline operations, and enhance the overall customer experience, ensuring continued success in the competitive pizza market.
+---
+
+✨ Created by **Simmi**
+
