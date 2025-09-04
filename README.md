@@ -61,11 +61,32 @@ Key requirements:
 
 ---
 
-__Execution__
----------
 
-__Questions Answered from the Dataset__
+## 📂 Dataset
 
+- **Source:** Pizza Sales Dataset  
+- **Total Records:** ~50,000 orders  
+- **Attributes:** Includes the following columns:  
+  - **order_id** – Unique ID for each order  
+  - **order_date** – Date of the order  
+  - **customer_id** – Unique customer identifier  
+  - **pizza_name** – Name of the pizza  
+  - **pizza_category** – Category (Veg/Non-Veg/Combo)  
+  - **pizza_size** – Size of pizza (Small/Medium/Large)  
+  - **quantity** – Number of pizzas in the order  
+  - **unit_price** – Price per pizza  
+  - **total_price** – Total price for the order  
+  - **payment_method** – Cash, Card, Online Payment  
+  - **branch_location** – Store/branch location  
+  - **delivery_type** – Dine-in / Delivery / Takeaway  
+
+This dataset was used for:  
+- **SQL analysis** to calculate KPIs like total revenue, average order value, and pizzas sold  
+- **Power BI dashboard** for interactive visualizations and insights into sales trends
+
+## ⚡ Execution
+
+### ❓ Questions Answered from the Dataset
 __1) What are the Key Performance Indicators obtained from the Dataset?__
 
 + __Total Revenue:__
